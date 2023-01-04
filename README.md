@@ -1,4 +1,4 @@
-![](src/test/resources/Screenshot 2023-01-04 at 17.09.51.png)
+![img.png](src/test/resources/Screenshot 2023-01-04 at 17.09.51.png)
 
 # Faladdin QA Task
 
