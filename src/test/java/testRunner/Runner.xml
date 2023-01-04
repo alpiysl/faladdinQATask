@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite data-provider-thread-count="1" name="Faladdin" parallel="tests">
+
+    <test name="Faladdin Login Test">
+        <parameter name="platformVersion" value="11.0"/>
+        <parameter name="deviceName" value="Redmi Note 8"/>
+        <parameter name="appPackage" value="com.faladdin.app"/>
+        <parameter name="appActivity" value="com.faladdin.app.ui.launcher.LauncherActivity"/>
+        <parameter name="appWaitForLaunch" value="false"/>
+        <classes>
+            <class name="com.faladdin.test.Login"/>
+        </classes>
+    </test>
+
+</suite>
