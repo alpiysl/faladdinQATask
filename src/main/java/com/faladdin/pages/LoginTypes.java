@@ -54,6 +54,6 @@ public class LoginTypes extends BaseStepMethod {
     public void selectTheEmail() throws InterruptedException {
         LOGGER.info("User selects the email");
         Thread.sleep(3000);
-        waitAllVisibleByLocator(EMAIL).get(1).click();
+        waitAllVisibleByLocator(EMAIL).get(1).click(); //selected my own email
     }
 }
